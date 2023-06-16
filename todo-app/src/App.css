@@ -1,0 +1,77 @@
+.todos-text {
+  display: flex;
+  justify-content: center;
+  color: #ead7d7;
+  font-weight: 100;
+  font-size: 100px;
+  margin: 13px;
+}
+
+.task-manager {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.task {
+  font-size: 24px;
+  margin: 0px;
+  padding: 15px 15px 15px 60px;
+  background-color: #ffffff;
+  color: #4d4d4d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 24px;
+  width: 474px;
+  padding: 16px 16px 16px 60px;
+  box-shadow: 0px 20px 20px 10px #e2e2e2, inset 0px 1px #e2e2e2;
+}
+
+
+.button-style {
+  margin: 0px 0px 5px 0px;
+  display: flex;
+  background-color: #ffffff;
+  border: none;
+  color: #d87f7f;
+  font-size: 30px;
+  visibility: hidden;
+}
+
+.task-text{
+  color: #4d4d4d;
+  font-size: 24px;
+  font-weight: inherit;
+  outline: none;
+  border: none;
+  padding: 16px 16px 16px 60px;
+  box-shadow: 0px 20px 20px 10px #e2e2e2, inset 0px 1px 2px #e2e2e2;
+  height: 34px;
+  width: 474px;
+}
+
+::placeholder{
+  color: #e6e6e6;
+  font-style: oblique;
+}
+
+li:hover button{
+  visibility: visible;
+}
+
+button:hover {
+  color: #a75e5e;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  background-color: #f5f5f5;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
